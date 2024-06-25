@@ -1,16 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-
-interface Book {
-  id: number;
-  title: string;
-  author: string;
-  publicationYear: number;
-  description: string;
-  coverImage: string;
-  liked: boolean;
-}
+import { Book } from '../models/book.model'
 
 @Injectable({
   providedIn: 'root'

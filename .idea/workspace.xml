@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e45534ea-3dcc-4324-9703-a9c506802e93" name="Changes" comment="initial components-services">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="e45534ea-3dcc-4324-9703-a9c506802e93" name="Changes" comment="api connection - book interface">
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/models/book.model.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/components/book-list/book-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/book-list/book-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/components/book-list/book-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/book-list/book-list.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/services/book.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/services/book.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +84,7 @@
       <updated>1719350278481</updated>
       <workItem from="1719350279466" duration="2203000" />
       <workItem from="1719352656072" duration="277000" />
-      <workItem from="1719352949079" duration="425000" />
+      <workItem from="1719352949079" duration="1335000" />
     </task>
     <task id="LOCAL-00001" summary="initial components-services">
       <option name="closed" value="true" />
@@ -107,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719352507813</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="api connection - book interface">
+      <option name="closed" value="true" />
+      <created>1719353488170</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719353488170</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +150,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial components-services" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial components-services" />
+    <MESSAGE value="api connection - book interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="api connection - book interface" />
   </component>
 </project>
