@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e45534ea-3dcc-4324-9703-a9c506802e93" name="Changes" comment="api connection - book interface">
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/models/book.model.ts" afterDir="false" />
+    <list default="true" id="e45534ea-3dcc-4324-9703-a9c506802e93" name="Changes" comment="displaying books in grid">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/components/book-list/book-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/book-list/book-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/components/book-item/book-item.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/book-item/book-item.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/components/book-item/book-item.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/book-item/book-item.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/components/book-list/book-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/book-list/book-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/services/book.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/services/book.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/components/book-modal/book-modal.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/book-modal/book-modal.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/components/book-modal/book-modal.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/book-modal/book-modal.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +87,7 @@
       <updated>1719350278481</updated>
       <workItem from="1719350279466" duration="2203000" />
       <workItem from="1719352656072" duration="277000" />
-      <workItem from="1719352949079" duration="1335000" />
+      <workItem from="1719352949079" duration="2599000" />
     </task>
     <task id="LOCAL-00001" summary="initial components-services">
       <option name="closed" value="true" />
@@ -118,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719353488170</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="displaying books in grid">
+      <option name="closed" value="true" />
+      <created>1719354850167</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719354850167</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +162,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial components-services" />
     <MESSAGE value="api connection - book interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="api connection - book interface" />
+    <MESSAGE value="displaying books in grid" />
+    <option name="LAST_COMMIT_MESSAGE" value="displaying books in grid" />
   </component>
 </project>

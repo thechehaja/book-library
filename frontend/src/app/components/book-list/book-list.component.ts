@@ -1,14 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 import { BookService } from '../../services/book.service';
 import { Book } from '../../models/book.model'
-import {BookItemComponent} from "../book-item/book-item.component";
+import { BookItemComponent } from "../book-item/book-item.component";
+import { NgForOf } from "@angular/common";
 
 @Component({
   selector: 'app-book-list',
   templateUrl: './book-list.component.html',
   standalone: true,
   imports: [
-    BookItemComponent
+    BookItemComponent,
+    NgForOf
   ],
   styleUrls: ['./book-list.component.css']
 })
