@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e45534ea-3dcc-4324-9703-a9c506802e93" name="Changes" comment="initial components-services">
-      <change beforePath="$PROJECT_DIR$/frontend/.vscode/extensions.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.vscode/extensions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.vscode/launch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.vscode/tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.vscode/tasks.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.html" afterDir="false" />
+    <list default="true" id="e45534ea-3dcc-4324-9703-a9c506802e93" name="Changes" comment="search functionality">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/components/book-list/book-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/book-list/book-list.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +14,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -33,7 +36,7 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev-branch&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -75,7 +78,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719350278481</updated>
-      <workItem from="1719350279466" duration="2054000" />
+      <workItem from="1719350279466" duration="2203000" />
+      <workItem from="1719352656072" duration="277000" />
+      <workItem from="1719352949079" duration="3360000" />
     </task>
     <task id="LOCAL-00001" summary="initial components-services">
       <option name="closed" value="true" />
@@ -85,7 +90,63 @@
       <option name="project" value="LOCAL" />
       <updated>1719352381030</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial components-services">
+      <option name="closed" value="true" />
+      <created>1719352489294</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719352489294</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial components-services">
+      <option name="closed" value="true" />
+      <created>1719352507813</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719352507813</updated>
+    </task>
+    <task id="LOCAL-00004" summary="api connection - book interface">
+      <option name="closed" value="true" />
+      <created>1719353488170</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719353488170</updated>
+    </task>
+    <task id="LOCAL-00005" summary="displaying books in grid">
+      <option name="closed" value="true" />
+      <created>1719354850167</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719354850167</updated>
+    </task>
+    <task id="LOCAL-00006" summary="like functionality">
+      <option name="closed" value="true" />
+      <created>1719355606550</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719355606550</updated>
+    </task>
+    <task id="LOCAL-00007" summary="search functionality">
+      <option name="closed" value="true" />
+      <created>1719355903453</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719355903453</updated>
+    </task>
+    <task id="LOCAL-00008" summary="search functionality">
+      <option name="closed" value="true" />
+      <created>1719355910855</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719355910855</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +178,10 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial components-services" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial components-services" />
+    <MESSAGE value="api connection - book interface" />
+    <MESSAGE value="displaying books in grid" />
+    <MESSAGE value="like functionality" />
+    <MESSAGE value="search functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="search functionality" />
   </component>
 </project>

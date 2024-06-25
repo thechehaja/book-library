@@ -1,12 +1,39 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { BookService } from '../../services/book.service';
+import { Book } from '../../models/book.model'
+import { BookItemComponent } from "../book-item/book-item.component";
+import { NgForOf } from "@angular/common";
+import {SearchComponent} from "../search/search.component";
 
 @Component({
   selector: 'app-book-list',
-  standalone: true,
-  imports: [],
   templateUrl: './book-list.component.html',
-  styleUrl: './book-list.component.css'
+  standalone: true,
+  imports: [
+    BookItemComponent,
+    CommonModule,
+    NgForOf,
+    SearchComponent
+  ],
+  styleUrls: ['./book-list.component.css']
 })
-export class BookListComponent {
+export class BookListComponent implements OnInit {
+  books: Book[] = [];
+
+  constructor(private bookService: BookService) { }
+
+  ngOnInit(): void {
+    this.bookService.getBooks().subscribe((data) => {
+      this.books = data;
+    });
+  }
+
+  filteredBooks: Book[] = this.books;
+
+  onSearch(searchTerm: string): void {
+    this.filteredBooks = this.books.filter(book =>
+      book.title.toLowerCase().includes(searchTerm.toLowerCase()));
+  }
 
 }

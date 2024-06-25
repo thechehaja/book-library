@@ -1,12 +1,21 @@
-import { Component } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-book-modal',
-  standalone: true,
-  imports: [],
   templateUrl: './book-modal.component.html',
-  styleUrl: './book-modal.component.css'
+  standalone: true,
+  styleUrls: ['./book-modal.component.css']
 })
 export class BookModalComponent {
+  @Input() book: any;
+  @Input() isOpen = false;
+  @Output() close = new EventEmitter<void>();
 
+  toggleLike(): void {
+    this.book.liked = !this.book.liked;
+  }
+
+  closeModal(): void {
+    this.close.emit();
+  }
 }
