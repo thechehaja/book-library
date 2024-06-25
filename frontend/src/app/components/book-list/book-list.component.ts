@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
 import { BookService } from '../../services/book.service';
 import { Book } from '../../models/book.model'
 import { BookItemComponent } from "../book-item/book-item.component";
@@ -11,6 +12,7 @@ import {SearchComponent} from "../search/search.component";
   standalone: true,
   imports: [
     BookItemComponent,
+    CommonModule,
     NgForOf,
     SearchComponent
   ],
