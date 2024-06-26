@@ -1,5 +1,4 @@
 import { Component, Input } from '@angular/core';
-import {Book} from "../../models/book.model";
 import {MatDialog, MatDialogModule} from "@angular/material/dialog";
 import {BookModalComponent} from "../book-modal/book-modal.component";
 
