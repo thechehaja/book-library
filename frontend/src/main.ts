@@ -4,6 +4,6 @@ import { AppComponent } from './app/app.component';
 import { BookListComponent } from './app/components/book-list/book-list.component';
 import { provideHttpClient } from "@angular/common/http";
 
-bootstrapApplication(BookListComponent, {
+bootstrapApplication(AppComponent, {
   providers: [provideHttpClient()]
 });
