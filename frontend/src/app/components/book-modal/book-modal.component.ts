@@ -1,4 +1,6 @@
-import { Component, Input, Output, EventEmitter } from '@angular/core';
+import { Component, Inject } from '@angular/core';
+import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
+import { Book } from '../../models/book.model';
 
 @Component({
   selector: 'app-book-modal',
@@ -7,15 +9,16 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./book-modal.component.css']
 })
 export class BookModalComponent {
-  @Input() book: any;
-  @Input() isOpen = false;
-  @Output() close = new EventEmitter<void>();
+  constructor(
+    @Inject(MAT_DIALOG_DATA) public book: Book,
+    private dialogRef: MatDialogRef<BookModalComponent>
+  ) {}
 
   toggleLike(): void {
     this.book.liked = !this.book.liked;
   }
 
   closeModal(): void {
-    this.close.emit();
+    this.dialogRef.close();
   }
 }
