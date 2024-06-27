@@ -150,6 +150,30 @@ namespace bookLibraryBackend.Controllers
 
             return NoContent();
         }
+        
+        // GET: api/Books/5/Comments
+        [HttpGet("{id}/comments")]
+        public async Task<ActionResult<IEnumerable<Comment>>> GetComments(int id)
+        {
+            var comments = await _context.Comment.Where(c => c.BookId == id).ToListAsync();
+            return comments;
+        }
+        
+        [HttpPost("{id}/comments")]
+        public async Task<ActionResult<Comment>> AddComment(int id, CommentDTO commentDTO)
+        {
+            var comment = new Comment
+            {
+                BookId = id,
+                Content = commentDTO.Content,
+                CreatedAt = DateTime.UtcNow
+            };
+
+            _context.Comment.Add(comment);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetComments), new { id = comment.Id }, comment);
+        }
 
         private bool BookExists(int id)
         {

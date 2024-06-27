@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { map, Observable } from 'rxjs';
 import { Book } from '../models/book.model';
+import { Comment } from "../models/comment.model";
 
 @Injectable({
   providedIn: 'root'
@@ -39,5 +40,13 @@ export class BookService {
 
   updateLikeStatus(id: number, liked: boolean): Observable<void> {
     return this.http.put<void>(`${this.apiUrl}/${id}/like`, liked);
+  }
+
+  getComments(bookId: number): Observable<Comment[]> {
+    return this.http.get<Comment[]>(`${this.apiUrl}/${bookId}/comments`);
+  }
+
+  addComment(bookId: number, content: string): Observable<Comment> {
+    return this.http.post<Comment>(`${this.apiUrl}/${bookId}/comments`, { content });
   }
 }
