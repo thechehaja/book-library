@@ -45,7 +45,7 @@ app-book-item {
 }
 
 app-book-item:hover {
-  transform: translateY(-2px);
+  transform: translateY(-5px);
   background-color: #ffcd90;
 }
 

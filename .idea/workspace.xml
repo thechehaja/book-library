@@ -5,7 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e45534ea-3dcc-4324-9703-a9c506802e93" name="Changes" comment="UI tweak (color palette)">
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/DTOs/CommentDTO.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/Models/Comment.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/models/comment.model.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/bookLibraryBackend/Controllers/BooksController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/Controllers/BooksController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/bookLibraryBackend/Data/BookContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/Data/BookContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/bookLibraryBackend/Migrations/BookContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/Migrations/BookContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/bookLibraryBackend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/bookLibraryBackend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/bookLibraryBackend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/bookLibraryBackend.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/bookLibraryBackend.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/bookLibraryBackend.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/bookLibraryBackend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/bookLibraryBackend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/bookLibraryBackend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/bookLibraryBackend.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/ref/bookLibraryBackend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/ref/bookLibraryBackend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/refint/bookLibraryBackend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/refint/bookLibraryBackend.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/staticwebassets.pack.sentinel" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/components/book-list/book-list.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/book-list/book-list.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/components/book-modal/book-modal.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/book-modal/book-modal.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/components/book-modal/book-modal.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/book-modal/book-modal.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/components/book-modal/book-modal.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/book-modal/book-modal.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/images/1984.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/services/book.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/services/book.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +107,7 @@
       <workItem from="1719440969246" duration="6931000" />
       <workItem from="1719479992616" duration="336000" />
       <workItem from="1719481807038" duration="194000" />
-      <workItem from="1719501090049" duration="10280000" />
+      <workItem from="1719501090049" duration="16201000" />
     </task>
     <task id="LOCAL-00001" summary="initial components-services">
       <option name="closed" value="true" />
@@ -224,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719515491660</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="UI tweak (color palette)">
+      <option name="closed" value="true" />
+      <created>1719515608813</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1719515608813</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

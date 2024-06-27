@@ -7,7 +7,7 @@ namespace bookLibraryBackend.Data
     {
         public BookContext(DbContextOptions<BookContext> options) : base(options) { }
         public DbSet<Book> Book { get; set; }
-
+        public DbSet<Comment> Comment { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Book>()
