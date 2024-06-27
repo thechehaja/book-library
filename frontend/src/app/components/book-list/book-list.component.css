@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e5edf5;
+  margin: 0;
+  padding: 0;
+}
+
+app-search {
+  display: block;
+  padding: 1rem;
+  background-color: #cfe1f7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  padding: 0 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .book-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 0 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .book-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+    padding: 0 2.5rem;
+  }
+}
+
+app-book-item {
+  background-color: #f0f7fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+app-book-item:hover {
+  transform: translateY(-5px);
+}
+
+app-book-item img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+app-book-item h3 {
+  margin: 1rem 0;
+  font-size: 1.25rem;
+  text-align: center;
+  cursor: pointer;
+  color: #333333;
+}
+
+
+
