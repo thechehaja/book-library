@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e45534ea-3dcc-4324-9703-a9c506802e93" name="Changes" comment="database, backend methods, replaced API with a new custom-made one">
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/images/1984.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/images/logo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/bookLibraryBackend/Migrations/BookContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/Migrations/BookContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/bookLibraryBackend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/bookLibraryBackend.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/bookLibraryBackend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/bookLibraryBackend.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/bookLibraryBackend.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/bookLibraryBackend.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/bookLibraryBackend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/bookLibraryBackend.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/bookLibraryBackend.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/bookLibraryBackend.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/ref/bookLibraryBackend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/ref/bookLibraryBackend.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/refint/bookLibraryBackend.dll" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/refint/bookLibraryBackend.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/staticwebassets.pack.sentinel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/components/book-item/book-item.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/book-item/book-item.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/components/book-list/book-list.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/book-list/book-list.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/components/book-list/book-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/book-list/book-list.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +91,7 @@
       <workItem from="1719440969246" duration="6931000" />
       <workItem from="1719479992616" duration="336000" />
       <workItem from="1719481807038" duration="194000" />
-      <workItem from="1719501090049" duration="7118000" />
+      <workItem from="1719501090049" duration="9850000" />
     </task>
     <task id="LOCAL-00001" summary="initial components-services">
       <option name="closed" value="true" />
@@ -209,7 +205,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719508327063</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="database, backend methods, replaced API with a new custom-made one">
+      <option name="closed" value="true" />
+      <created>1719509427195</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1719509427195</updated>
+    </task>
+    <task id="LOCAL-00016" summary="database, backend methods, replaced API with a new custom-made one">
+      <option name="closed" value="true" />
+      <created>1719509562817</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1719509562817</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
