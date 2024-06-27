@@ -8,7 +8,7 @@ body {
 app-search {
   display: block;
   padding: 1rem;
-  background-color: #cfe1f7;
+  background-color: #5b84c4;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   margin-bottom: 1rem;
 }
@@ -37,15 +37,16 @@ app-search {
 }
 
 app-book-item {
-  background-color: #f0f7fa;
+  background-color: #fff4df;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  transition: transform 0.3s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
 }
 
 app-book-item:hover {
-  transform: translateY(-5px);
+  transform: translateY(-2px);
+  background-color: #ffcd90;
 }
 
 app-book-item img {

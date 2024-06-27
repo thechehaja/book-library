@@ -50,7 +50,7 @@ namespace bookLibraryBackend.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Book");
+                    b.ToTable("Book", (string)null);
                 });
 #pragma warning restore 612, 618
         }

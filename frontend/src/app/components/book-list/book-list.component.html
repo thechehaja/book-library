@@ -1,4 +1,4 @@
-<app-search (search)="onSearch($event)"></app-search>
-<div class="book-grid">
+<app-search (search)="onSearch($event)" class="flex-1"></app-search>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
   <app-book-item *ngFor="let book of filteredBooks" [book]="book"></app-book-item>
 </div>
