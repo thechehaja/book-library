@@ -4,6 +4,6 @@ export interface Book {
   author: string;
   publication_year: number;
   description: string;
-  cover_image: string;
+  cover_image: Blob;
   liked?: boolean;
 }

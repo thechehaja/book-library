@@ -5,19 +5,110 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e45534ea-3dcc-4324-9703-a9c506802e93" name="Changes" comment="UI tweaks">
+      <change afterPath="$PROJECT_DIR$/backend/.idea/.idea.bookLibraryBackend/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.idea/.idea.bookLibraryBackend/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.idea/.idea.bookLibraryBackend/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.idea/.idea.bookLibraryBackend/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.idea/.idea.bookLibraryBackend/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.idea/config/applicationhost.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/Controllers/BooksController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/DTOs/BookCreateDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/Data/BookContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/Migrations/20240627161526_UpdateCoverImageToByteArray.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/Migrations/20240627161526_UpdateCoverImageToByteArray.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/Migrations/BookContextModelSnapshot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/Models/Book.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/Humanizer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/Microsoft.Identity.Client.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/Microsoft.OpenApi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/System.Diagnostics.DiagnosticSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/System.Drawing.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/System.Runtime.Caching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/System.Security.Permissions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/System.Windows.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/bookLibraryBackend.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/bookLibraryBackend.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/bookLibraryBackend.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/bookLibraryBackend.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/bookLibraryBackend.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/bookLibraryBackend.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/bookLibraryBackend.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/bookLibraryBackend.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/bookLibraryBackend.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/bookLibraryBackend.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/bookLibraryBackend.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/bookLibraryBackend.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/bookLibraryBackend.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/bookLibraryBackend.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/bookLibraryBackend.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/bookLibraryBackend.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/bookLibraryBackend.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/bookLibraryBackend.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/bookLibraryBackend.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/bookLibraryBackend.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/ref/bookLibraryBackend.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/refint/bookLibraryBackend.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/Debug/net6.0/staticwebassets.build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/bookLibraryBackend.csproj.EntityFrameworkCore.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/bookLibraryBackend.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/bookLibraryBackend.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/bookLibraryBackend.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/bookLibraryBackend/obj/staticwebassets.pack.sentinel" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/global.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/components/book-item/book-item.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/book-item/book-item.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/components/book-item/book-item.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/book-item/book-item.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/components/book-list/book-list.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/book-list/book-list.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/components/book-list/book-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/book-list/book-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/components/book-list/book-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/book-list/book-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/components/book-modal/book-modal.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/book-modal/book-modal.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/components/book-modal/book-modal.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/book-modal/book-modal.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/components/search/search.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/search/search.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/components/book-item/book-item.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/book-item/book-item.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/components/book-modal/book-modal.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/book-modal/book-modal.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/models/book.model.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/models/book.model.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/services/book.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/services/book.service.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,23 +134,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "dev-branch",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/emirm/Documents/GitHub/book-library",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_interpreter_path": "node",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\emirm\\Documents\\GitHub\\book-library\\frontend\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev-branch&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/emirm/Documents/GitHub/book-library&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\emirm\\Documents\\GitHub\\book-library\\frontend\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="npm.Angular CLI Server">
     <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
       <method v="2" />
@@ -95,7 +186,10 @@
       <workItem from="1719352949079" duration="3634000" />
       <workItem from="1719357071830" duration="579000" />
       <workItem from="1719392934775" duration="3894000" />
-      <workItem from="1719440969246" duration="6710000" />
+      <workItem from="1719440969246" duration="6931000" />
+      <workItem from="1719479992616" duration="336000" />
+      <workItem from="1719481807038" duration="194000" />
+      <workItem from="1719501090049" duration="5754000" />
     </task>
     <task id="LOCAL-00001" summary="initial components-services">
       <option name="closed" value="true" />
@@ -193,7 +287,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719395431008</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="UI tweaks">
+      <option name="closed" value="true" />
+      <created>1719447806127</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1719447806127</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

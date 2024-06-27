@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "beKy955xgooQsxQos+iBB6naeqaW3EVvNLl+RhKf+Eo=",
+  "Source": "bookLibraryBackend",
+  "BasePath": "_content/bookLibraryBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
