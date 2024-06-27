@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e45534ea-3dcc-4324-9703-a9c506802e93" name="Changes" comment="database, backend methods, replaced API with a new custom-made one">
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/images/1984.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/components/book-item/book-item.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/book-item/book-item.component.css" afterDir="false" />
+    <list default="true" id="e45534ea-3dcc-4324-9703-a9c506802e93" name="Changes" comment="UI tweak (color palette)">
       <change beforePath="$PROJECT_DIR$/frontend/src/app/components/book-list/book-list.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/book-list/book-list.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/components/book-list/book-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/components/book-list/book-list.component.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +86,7 @@
       <workItem from="1719440969246" duration="6931000" />
       <workItem from="1719479992616" duration="336000" />
       <workItem from="1719481807038" duration="194000" />
-      <workItem from="1719501090049" duration="9850000" />
+      <workItem from="1719501090049" duration="10280000" />
     </task>
     <task id="LOCAL-00001" summary="initial components-services">
       <option name="closed" value="true" />
@@ -221,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719509562817</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="UI tweak (color palette)">
+      <option name="closed" value="true" />
+      <created>1719515491660</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1719515491660</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,6 +265,7 @@
     <MESSAGE value="opening modal functionality" />
     <MESSAGE value="UI tweaks" />
     <MESSAGE value="database, backend methods, replaced API with a new custom-made one" />
-    <option name="LAST_COMMIT_MESSAGE" value="database, backend methods, replaced API with a new custom-made one" />
+    <MESSAGE value="UI tweak (color palette)" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI tweak (color palette)" />
   </component>
 </project>
