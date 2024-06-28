@@ -4,7 +4,7 @@ import { Book } from '../../models/book.model';
 import { BookService } from '../../services/book.service';
 import { Comment } from '../../models/comment.model';
 import {DatePipe, NgForOf} from "@angular/common";
-import {FormsModule} from "@angular/forms";  // Import the Comment model
+import {FormsModule} from "@angular/forms";
 
 @Component({
   selector: 'app-book-modal',
@@ -18,7 +18,7 @@ import {FormsModule} from "@angular/forms";  // Import the Comment model
   styleUrls: ['./book-modal.component.css']
 })
 export class BookModalComponent implements OnInit {
-  comments: Comment[] = [];  // Declare comments as Comment[]
+  comments: Comment[] = [];
 
   newComment: string = '';
 
@@ -43,7 +43,7 @@ export class BookModalComponent implements OnInit {
 
   loadComments(): void {
     this.bookService.getComments(this.book.id).subscribe((comments) => {
-      this.comments = comments;  // Assign the comments received from the service
+      this.comments = comments;
     });
   }
 
