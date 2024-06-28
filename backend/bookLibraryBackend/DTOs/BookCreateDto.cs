@@ -7,7 +7,7 @@
         public int PublicationYear { get; set; }
         public string? Description { get; set; }
         public bool Liked { get; set; }
-        public IFormFile? CoverImage { get; set; }  // Use IFormFile for file upload
+        public IFormFile? CoverImage { get; set; }  // IFormFile for upload
     }
 }
 

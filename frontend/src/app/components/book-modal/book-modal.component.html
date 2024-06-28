@@ -1,27 +1,29 @@
-<div class="modal-content">
-  <h2>{{ book.title }}</h2>
-  <p><strong>Author:</strong> {{ book.author }}</p>
-  <p><strong>Publication Year:</strong> {{ book.publication_year }}</p>
-  <div class="description-container">
-    <p>{{ book.description }}</p>
+<div class="modal-content bg-yellow-100 p-4 md:p-8 rounded-lg shadow-md max-w-lg mx-auto w-full md:w-auto">
+  <h2 class="mb-4 text-lg md:text-xl font-semibold">{{ book.title }}</h2>
+  <p class="mb-4 text-sm md:text-base"><strong>Author:</strong> {{ book.author }}</p>
+  <p class="mb-4 text-sm md:text-base"><strong>Publication Year:</strong> {{ book.publication_year }}</p>
+  <div class="description-container mb-4 max-h-36 overflow-y-auto">
+    <p class="text-sm md:text-base">{{ book.description }}</p>
   </div>
-  <div class="button-group">
-    <button (click)="toggleLike()">
-      <i [class]="book.liked ? 'fas fa-thumbs-up liked' : 'fas fa-thumbs-up'"></i>
+  <div class="button-group flex justify-between mt-6">
+    <button (click)="toggleLike()" class="p-2 rounded transition-colors hover:bg-blue-100">
+      <i [class]="book.liked ? 'fas fa-thumbs-up text-blue-500' : 'fas fa-thumbs-up'"></i>
     </button>
-    <button (click)="closeModal()">
-      <i class="fas fa-times"></i>
+    <button (click)="closeModal()" class="p-2 rounded transition-colors hover:bg-blue-100">
+      <i class="fas fa-times text-lg"></i>
     </button>
   </div>
-  <div class="comments-section">
-    <h3>Comments</h3>
-    <div *ngFor="let comment of comments" class="comment">
-      <p>{{ comment.content }}</p>
-      <small>{{ comment.createdAt | date:'short' }}</small>
+  <div class="comments-section mt-8">
+    <h3 class="mb-4 text-lg font-semibold">Comments</h3>
+    <div class="max-h-40 overflow-y-auto">
+      <div *ngFor="let comment of comments" class="comment pb-2 border-b border-gray-300">
+        <p class="text-sm md:text-base mb-1">{{ comment.content }}</p>
+        <small class="text-gray-600">{{ comment.createdAt | date:'short' }}</small>
+      </div>
     </div>
-    <div class="add-comment">
-      <textarea [(ngModel)]="newComment" placeholder="Add a comment..."></textarea>
-      <button (click)="addComment()">Submit</button>
+    <div class="add-comment mt-4">
+      <textarea [(ngModel)]="newComment" placeholder="Add a comment..." class="w-full p-2 mb-2 border border-gray-300 rounded"></textarea>
+      <button (click)="addComment()" class="block px-4 py-2 bg-blue-500 text-white rounded transition-colors hover:bg-blue-700">Submit</button>
     </div>
   </div>
 </div>

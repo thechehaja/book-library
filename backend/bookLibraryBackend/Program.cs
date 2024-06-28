@@ -4,21 +4,20 @@ using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddDbContext<BookContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Add CORS services
+// CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowLocalhost4200", builder =>
-        builder.WithOrigins("http://localhost:4200") // Adjust this URL to match your Angular frontend origin
+        builder.WithOrigins("http://localhost:4200")
             .AllowAnyHeader()
-            .AllowAnyMethod());
+            .AllowAnyMethod().WithExposedHeaders("X-Total-Count"));
 });
 
-// Add Swagger services
+// Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
 {
@@ -27,14 +26,14 @@ builder.Services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();
     app.UseSwagger();
     app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Book API v1"));
 }
-// Use CORS middleware
+// CORS middleware
 app.UseCors("AllowLocalhost4200");
 app.UseHttpsRedirection();
 app.UseAuthorization();

@@ -3,7 +3,6 @@ using bookLibraryBackend.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using bookLibraryBackend.DTOs;
@@ -21,11 +20,19 @@ namespace bookLibraryBackend.Controllers
             _context = context;
         }
 
-        // GET: api/Books
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Book>>> GetBooks()
+        public async Task<ActionResult<IEnumerable<Book>>> GetBooks([FromQuery] int page = 1, [FromQuery] int pageSize = 9)
         {
-            return await _context.Book.ToListAsync();
+            var totalBooks = await _context.Book.CountAsync();
+            var books = await _context.Book
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
+                .ToListAsync();
+
+            Response.Headers.Add("X-Total-Count", totalBooks.ToString());
+            Response.Headers.Add("Access-Control-Expose-Headers", "X-Total-Count");
+
+            return books;
         }
 
         // GET: api/Books/5

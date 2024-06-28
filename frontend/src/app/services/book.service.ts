@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { map, Observable } from 'rxjs';
 import { Book } from '../models/book.model';
-import { Comment } from "../models/comment.model";
+import { Comment } from '../models/comment.model';
 
 @Injectable({
   providedIn: 'root'
@@ -12,18 +12,24 @@ export class BookService {
 
   constructor(private http: HttpClient) { }
 
-  getBooks(): Observable<Book[]> {
-    return this.http.get<any[]>(this.apiUrl).pipe(
-      map((books: any[]) => {
-        return books.map(book => ({
-          id: book.id,
-          title: book.title,
-          author: book.author,
-          publication_year: book.publicationYear,
-          description: book.description,
-          cover_image: this.convertToBlob(book.coverImage),  // Convert to Blob
-          liked: book.liked
-        }));
+  getBooks(page: number = 1, pageSize: number = 9): Observable<{ books: Book[]; totalBooks: number }> {
+    let params = new HttpParams().set('page', page.toString()).set('pageSize', pageSize.toString());
+    return this.http.get<any[]>(this.apiUrl, { params, observe: 'response' }).pipe(
+      map(response => {
+        const books = response.body ?? [];
+        const totalBooks = +(response.headers.get('X-Total-Count') ?? 0);
+        return {
+          books: books.map(book => ({
+            id: book.id,
+            title: book.title,
+            author: book.author,
+            publication_year: book.publicationYear,
+            description: book.description,
+            cover_image: this.convertToBlob(book.coverImage),
+            liked: book.liked
+          })),
+          totalBooks: totalBooks
+        };
       })
     );
   }
